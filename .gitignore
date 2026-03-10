@@ -47,11 +47,6 @@ dist/
 # Plugins (not committed — install via admin or composer)
 # wp-content/plugins/
 
-# Large binary assets — keep locally, don't push to GitHub
-wp-content/themes/pachamala-temple/assets/images/logo/*.png
-wp-content/themes/pachamala-temple/assets/images/audio/
-
 # ✅ WHAT IS COMMITTED:
 # wp-config.php is excluded (credentials)
 # wp-content/themes/pachamala-temple/ — the custom theme IS committed
-# Assets: .webp logo and hero bg image are committed; large .png and audio excluded
