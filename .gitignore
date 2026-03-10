@@ -44,8 +44,17 @@ node_modules/
 dist/
 .env
 
-# Plugins (not committed — install via admin or composer)
-# wp-content/plugins/
+# Default plugins (not committed — install via admin)
+wp-content/plugins/akismet/
+wp-content/plugins/hello.php
+
+# Default themes (not committed — only custom theme is tracked)
+wp-content/themes/twentytwentythree/
+wp-content/themes/twentytwentyfour/
+wp-content/themes/twentytwentyfive/
+
+# Apache config (server-specific)
+.htaccess
 
 # ✅ WHAT IS COMMITTED:
 # wp-config.php is excluded (credentials)
