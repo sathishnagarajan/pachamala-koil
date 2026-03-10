@@ -101,3 +101,13 @@ function pkt_excerpt_more( $more ) {
     return '&hellip;';
 }
 add_filter( 'excerpt_more', 'pkt_excerpt_more' );
+
+// -----------------------------------------------------------------
+// Keep admin in English regardless of site language
+// -----------------------------------------------------------------
+add_filter( 'determine_locale', function( $locale ) {
+    if ( is_admin() ) {
+        return 'en_US';
+    }
+    return $locale;
+} );
