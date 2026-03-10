@@ -12,16 +12,16 @@ $has_data  = $pq->have_posts();
 <div class="pooja-timings-widget">
     <div class="widget-header">
         <span class="header-icon" aria-hidden="true">&#9719;</span>
-        <h3>Today's Pooja Timings</h3>
+        <h3><?php esc_html_e( "Today's Pooja Timings", 'pachamala-temple' ); ?></h3>
     </div>
 
     <?php if ( $has_data ) : ?>
     <table class="pooja-table">
         <thead>
             <tr>
-                <th>Pooja</th>
-                <th>Time</th>
-                <th>Type</th>
+                <th><?php esc_html_e( 'Pooja', 'pachamala-temple' ); ?></th>
+                <th><?php esc_html_e( 'Time', 'pachamala-temple' ); ?></th>
+                <th><?php esc_html_e( 'Type', 'pachamala-temple' ); ?></th>
             </tr>
         </thead>
         <tbody>
@@ -55,7 +55,11 @@ $has_data  = $pq->have_posts();
     <!-- Default timings when no CPT data entered yet -->
     <table class="pooja-table">
         <thead>
-            <tr><th>Pooja</th><th>Time</th><th>Type</th></tr>
+            <tr>
+                <th><?php esc_html_e( 'Pooja', 'pachamala-temple' ); ?></th>
+                <th><?php esc_html_e( 'Time', 'pachamala-temple' ); ?></th>
+                <th><?php esc_html_e( 'Type', 'pachamala-temple' ); ?></th>
+            </tr>
         </thead>
         <tbody>
             <?php
@@ -81,7 +85,7 @@ $has_data  = $pq->have_posts();
 
     <div style="padding:.75rem 1rem;text-align:right;border-top:1px solid var(--color-border)">
         <a href="<?php echo esc_url( home_url( '/pooja-timings' ) ); ?>" style="font-size:.8rem;color:var(--color-primary)">
-            View Full Schedule &rarr;
+            <?php esc_html_e( 'View Full Schedule', 'pachamala-temple' ); ?> &rarr;
         </a>
     </div>
 </div>

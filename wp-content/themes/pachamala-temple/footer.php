@@ -32,16 +32,16 @@
 
                 <!-- Column 2: Quick Links -->
                 <div class="footer-col">
-                    <h4 class="footer-col-title">Quick Links</h4>
+                    <h4 class="footer-col-title"><?php esc_html_e( 'Quick Links', 'pachamala-temple' ); ?></h4>
                     <ul class="footer-nav-list">
-                        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
-                        <li><a href="<?php echo esc_url( home_url( '/about' ) ); ?>">About the Temple</a></li>
-                        <li><a href="<?php echo esc_url( home_url( '/deities' ) ); ?>">Deities</a></li>
-                        <li><a href="<?php echo esc_url( home_url( '/pooja-timings' ) ); ?>">Pooja Timings</a></li>
-                        <li><a href="<?php echo esc_url( home_url( '/events' ) ); ?>">Festivals &amp; Events</a></li>
-                        <li><a href="<?php echo esc_url( home_url( '/gallery' ) ); ?>">Gallery</a></li>
-                        <li><a href="<?php echo esc_url( home_url( '/donations' ) ); ?>">Donations</a></li>
-                        <li><a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">Contact Us</a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Home', 'pachamala-temple' ); ?></a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/about' ) ); ?>"><?php esc_html_e( 'About the Temple', 'pachamala-temple' ); ?></a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/deities' ) ); ?>"><?php esc_html_e( 'Deities', 'pachamala-temple' ); ?></a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/pooja-timings' ) ); ?>"><?php esc_html_e( 'Pooja Timings', 'pachamala-temple' ); ?></a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/events' ) ); ?>"><?php esc_html_e( 'Festivals &amp; Events', 'pachamala-temple' ); ?></a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/gallery' ) ); ?>"><?php esc_html_e( 'Gallery', 'pachamala-temple' ); ?></a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/donations' ) ); ?>"><?php esc_html_e( 'Donations', 'pachamala-temple' ); ?></a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/contact' ) ); ?>"><?php esc_html_e( 'Contact Us', 'pachamala-temple' ); ?></a></li>
                     </ul>
                 </div>
 
@@ -50,18 +50,18 @@
                     <?php if ( is_active_sidebar( 'footer-widget-3' ) ) :
                         dynamic_sidebar( 'footer-widget-3' );
                     else : ?>
-                        <h4 class="footer-col-title">Temple Timings</h4>
+                        <h4 class="footer-col-title"><?php esc_html_e( 'Temple Timings', 'pachamala-temple' ); ?></h4>
                         <ul class="footer-nav-list">
-                            <li>Morning: 6:00 AM – 12:00 PM</li>
-                            <li>Evening: 4:00 PM – 9:00 PM</li>
-                            <li>Friday: Special Pooja 7:00 PM</li>
+                            <li><?php esc_html_e( 'Morning: 6:00 AM – 12:00 PM', 'pachamala-temple' ); ?></li>
+                            <li><?php esc_html_e( 'Evening: 4:00 PM – 9:00 PM', 'pachamala-temple' ); ?></li>
+                            <li><?php esc_html_e( 'Friday: Special Pooja 7:00 PM', 'pachamala-temple' ); ?></li>
                         </ul>
                     <?php endif; ?>
                 </div>
 
                 <!-- Column 4: Contact -->
                 <div class="footer-col">
-                    <h4 class="footer-col-title">Contact Us</h4>
+                    <h4 class="footer-col-title"><?php esc_html_e( 'Contact Us', 'pachamala-temple' ); ?></h4>
                     <div class="footer-contact-item">
                         <span class="footer-contact-icon">&#9873;</span>
                         <address style="font-style:normal">
@@ -91,7 +91,7 @@
                 <p class="footer-copyright">
                     &copy; <?php echo esc_html( date( 'Y' ) ); ?>
                     <?php bloginfo( 'name' ); ?>.
-                    All Rights Reserved.
+                    <?php esc_html_e( 'All Rights Reserved.', 'pachamala-temple' ); ?>
                     &nbsp;|&nbsp;
                     <span style="font-size:.75rem">
                         Ubayam: <a href="https://bytesbrothers.com" target="_blank" rel="noopener noreferrer" style="color:rgba(255,255,255,.5)">bytesbrothers.com</a>
@@ -123,7 +123,7 @@
     </audio>
     <button id="audio-toggle" class="audio-btn" aria-label="Play Devotional Music" aria-pressed="false">
         <span class="audio-icon" aria-hidden="true">&#9834;</span>
-        <span class="audio-label">Devotional Music</span>
+        <span class="audio-label"><?php esc_html_e( 'Devotional Music', 'pachamala-temple' ); ?></span>
     </button>
 </div>
 

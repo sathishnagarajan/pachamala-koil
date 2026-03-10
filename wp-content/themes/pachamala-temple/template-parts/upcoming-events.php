@@ -10,7 +10,7 @@ $events = pkt_get_upcoming_events( 4 );
 <div class="events-widget">
     <div class="widget-header">
         <span class="header-icon" aria-hidden="true">&#128197;</span>
-        <h3>Upcoming Festivals &amp; Events</h3>
+        <h3><?php esc_html_e( 'Upcoming Festivals &amp; Events', 'pachamala-temple' ); ?></h3>
     </div>
 
     <?php if ( $events->have_posts() ) : ?>
@@ -40,10 +40,10 @@ $events = pkt_get_upcoming_events( 4 );
         <!-- Placeholder events when no CPT data yet -->
         <?php
         $placeholders = [
-            [ 'day' => '14', 'month' => 'Jan', 'title' => 'Pongal Celebration',         'desc' => 'Thai Pongal Festival'          ],
-            [ 'day' => '17', 'month' => 'Jan', 'title' => 'Thiruvadirai Festival',       'desc' => 'Arudra Darshan'                ],
-            [ 'day' => '01', 'month' => 'Feb', 'title' => 'Thai Poosam',                 'desc' => 'Grand celebration for devotees'],
-            [ 'day' => '08', 'month' => 'Mar', 'title' => 'Maha Shivaratri',             'desc' => 'Night-long special poojas'     ],
+            [ 'day' => '14', 'month' => 'Jan', 'title' => __( 'Pongal Celebration', 'pachamala-temple' ),   'desc' => __( 'Thai Pongal Festival', 'pachamala-temple' )            ],
+            [ 'day' => '17', 'month' => 'Jan', 'title' => __( 'Thiruvadirai Festival', 'pachamala-temple' ),'desc' => __( 'Arudra Darshan', 'pachamala-temple' )                   ],
+            [ 'day' => '01', 'month' => 'Feb', 'title' => __( 'Thai Poosam', 'pachamala-temple' ),          'desc' => __( 'Grand celebration for devotees', 'pachamala-temple' )  ],
+            [ 'day' => '08', 'month' => 'Mar', 'title' => __( 'Maha Shivaratri', 'pachamala-temple' ),      'desc' => __( 'Night-long special poojas', 'pachamala-temple' )        ],
         ];
         foreach ( $placeholders as $p ) : ?>
         <div class="event-card" style="cursor:default">
@@ -61,7 +61,7 @@ $events = pkt_get_upcoming_events( 4 );
 
     <div style="padding:.75rem 1rem;text-align:right;border-top:1px solid var(--color-border)">
         <a href="<?php echo esc_url( home_url( '/events' ) ); ?>" style="font-size:.8rem;color:var(--color-primary)">
-            View All Events &rarr;
+            <?php esc_html_e( 'View All Events', 'pachamala-temple' ); ?> &rarr;
         </a>
     </div>
 </div>

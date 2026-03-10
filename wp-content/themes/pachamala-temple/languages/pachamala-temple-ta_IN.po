@@ -1,0 +1,296 @@
+# Tamil (India) Translation for Pachamala Temple Theme
+# Copyright (C) 2025 Pachaimalai Athireeswarar Temple
+# This file is distributed under the same license as the theme.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pachamala Temple 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-01 00:00+0000\n"
+"PO-Revision-Date: 2025-01-01 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Tamil\n"
+"Language: ta_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# --- Navigation / Menu labels ---
+msgid "Primary Navigation"
+msgstr "முதன்மை வழிசெலுத்தல்"
+
+msgid "Footer Links"
+msgstr "கீழ் இணைப்புகள்"
+
+msgid "Top Bar Menu"
+msgstr "மேல் பட்டி மெனு"
+
+# --- Hero ---
+msgid "Today's Pooja Timings"
+msgstr "இன்றைய பூஜை நேரம்"
+
+msgid "About the Temple"
+msgstr "கோவிலை பற்றி"
+
+# --- Welcome Strip ---
+msgid "Sacred Shrine"
+msgstr "புனித தலம்"
+
+msgid "Daily Poojas"
+msgstr "தினசரி பூஜை"
+
+msgid "Festivals &amp; Events"
+msgstr "திருவிழாக்கள் & நிகழ்வுகள்"
+
+msgid "Daily rituals performed with devotion from early morning to night. Experience divine blessings."
+msgstr "அதிகாலை முதல் இரவு வரை பக்தியுடன் நடைபெறும் தினசரி வழிபாடு. இறை அருளை அனுபவியுங்கள்."
+
+msgid "Grand celebrations of Tamil Hindu festivals throughout the year. Join us in devotion."
+msgstr "ஆண்டு முழுவதும் தமிழ் இந்து திருவிழாக்களின் கோலாகல கொண்டாட்டங்கள். பக்தியுடன் கலந்துகொள்ளுங்கள்."
+
+# --- Section Titles ---
+msgid "Daily Worship &amp; Events"
+msgstr "தினசரி வழிபாடு & நிகழ்வுகள்"
+
+msgid "Our Deities"
+msgstr "நம் தெய்வங்கள்"
+
+msgid "Temple Gallery"
+msgstr "கோவில் படங்கள்"
+
+msgid "View All Photos"
+msgstr "அனைத்து படங்களும்"
+
+msgid "Support the Temple"
+msgstr "கோவிலை ஆதரியுங்கள்"
+
+msgid "Your contribution helps us maintain the sanctity of this sacred shrine, conduct daily poojas, and celebrate grand festivals."
+msgstr "உங்கள் கொடை இந்த புனித தலத்தின் பரிசுத்தத்தை பாதுகாக்கவும், தினசரி பூஜைகள் நடத்தவும், திருவிழாக்கள் கொண்டாடவும் உதவுகிறது."
+
+msgid "Donate Now"
+msgstr "நன்கொடை அளிக்க"
+
+# --- Pooja Timings Widget ---
+msgid "Pooja"
+msgstr "பூஜை"
+
+msgid "Time"
+msgstr "நேரம்"
+
+msgid "Type"
+msgstr "வகை"
+
+msgid "View Full Schedule"
+msgstr "முழு அட்டவணை காண"
+
+# --- Events Widget ---
+msgid "Upcoming Festivals &amp; Events"
+msgstr "வரவிருக்கும் திருவிழாக்கள் & நிகழ்வுகள்"
+
+msgid "View All Events"
+msgstr "அனைத்து நிகழ்வுகளும்"
+
+msgid "Pongal Celebration"
+msgstr "பொங்கல் விழா"
+
+msgid "Thai Pongal Festival"
+msgstr "தை பொங்கல் திருவிழா"
+
+msgid "Thiruvadirai Festival"
+msgstr "திருவாதிரை திருவிழா"
+
+msgid "Arudra Darshan"
+msgstr "ஆருத்ரா தரிசனம்"
+
+msgid "Thai Poosam"
+msgstr "தை பூசம்"
+
+msgid "Grand celebration for devotees"
+msgstr "பக்தர்களுக்கான கோலாகல திருவிழா"
+
+msgid "Maha Shivaratri"
+msgstr "மகா சிவராத்திரி"
+
+msgid "Night-long special poojas"
+msgstr "இரவு முழுவதும் சிறப்பு பூஜைகள்"
+
+# --- Deity Cards ---
+msgid "Lord Athireeswarar"
+msgstr "ஆதிரீஸ்வரர்"
+
+msgid "Presiding Deity (Lord Shiva)"
+msgstr "முதன்மை இறைவன் (சிவபெருமான்)"
+
+msgid "Pachaimalai Athireeswarar is the presiding deity of this temple, a form of Lord Shiva who bestows wisdom, prosperity, and liberation upon his devotees. The green hills (Pachaimalai) are his divine abode."
+msgstr "பச்சைமலை ஆதிரீஸ்வரர் இக்கோவிலின் முதன்மை இறைவன் ஆவார். அவர் சிவபெருமானின் வடிவமாக, பக்தர்களுக்கு ஞானம், செல்வம் மற்றும் முக்தி அளிக்கிறார். பச்சை மலைகளே அவரது திருவாசஸ்தலம்."
+
+msgid "Goddess Anushiyambal"
+msgstr "அனுசியாம்பாள்"
+
+msgid "Consort Goddess (Goddess Parvati)"
+msgstr "தேவி (பார்வதி தேவி)"
+
+msgid "Goddess Anushiyambal, the divine consort of Lord Athireeswarar, is worshipped here as Shakti. She grants blessings of health, wealth, and marital bliss to all devotees who seek her grace."
+msgstr "ஆதிரீஸ்வரரின் திருமனைவியாம் அனுசியாம்பாள் இங்கு சக்தியாக வழிபடப்படுகிறாள். அவளது அருளை நாடும் பக்தர்களுக்கு ஆரோக்கியம், செல்வம் மற்றும் இல்லற இன்பம் அருள்கிறாள்."
+
+msgid "Learn More"
+msgstr "மேலும் அறிய"
+
+# --- Footer ---
+msgid "Quick Links"
+msgstr "விரைவு இணைப்புகள்"
+
+msgid "Home"
+msgstr "முகப்பு"
+
+msgid "Deities"
+msgstr "இறைவர்கள்"
+
+msgid "Pooja Timings"
+msgstr "பூஜை நேரம்"
+
+msgid "Gallery"
+msgstr "படங்கள்"
+
+msgid "Donations"
+msgstr "நன்கொடை"
+
+msgid "Contact Us"
+msgstr "தொடர்பு கொள்ள"
+
+msgid "Temple Timings"
+msgstr "கோவில் நேரம்"
+
+msgid "Morning: 6:00 AM – 12:00 PM"
+msgstr "காலை: 6:00 மணி – 12:00 மணி"
+
+msgid "Evening: 4:00 PM – 9:00 PM"
+msgstr "மாலை: 4:00 மணி – 9:00 மணி"
+
+msgid "Friday: Special Pooja 7:00 PM"
+msgstr "வெள்ளி: சிறப்பு பூஜை 7:00 மணி"
+
+msgid "All Rights Reserved."
+msgstr "அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டன."
+
+msgid "Devotional Music"
+msgstr "பக்தி இசை"
+
+# --- Pooja Timings Page ---
+msgid "Pooja Name"
+msgstr "பூஜை பெயர்"
+
+msgid "Pooja Schedule"
+msgstr "பூஜை அட்டவணை"
+
+msgid "Daily Pooja Schedule"
+msgstr "தினசரி பூஜை அட்டவணை"
+
+msgid "Special Friday Pooja"
+msgstr "வெள்ளிக்கிழமை சிறப்பு பூஜை"
+
+msgid "Every Friday, special Abhishekam and Archana is performed with elaborate rituals. Devotees are encouraged to participate in the evening pooja starting at 7:00 PM."
+msgstr "ஒவ்வொரு வெள்ளிக்கிழமையும் சிறப்பு அபிஷேகம் மற்றும் அர்ச்சனை நடைபெறும். மாலை 7:00 மணிக்கு தொடங்கும் பூஜையில் பக்தர்கள் கலந்துகொள்ளலாம்."
+
+msgid "Note:"
+msgstr "குறிப்பு:"
+
+msgid "Temple timings may vary on festival days. Please contact us for special occasion schedules."
+msgstr "திருவிழா நாட்களில் கோவில் நேரம் மாறுபடலாம். சிறப்பு நிகழ்வு அட்டவணைக்கு எங்களை தொடர்பு கொள்ளுங்கள்."
+
+# --- Gallery Page ---
+msgid "All Photos"
+msgstr "அனைத்து படங்கள்"
+
+msgid "Gallery photos will be added soon. Check back later!"
+msgstr "படங்கள் விரைவில் சேர்க்கப்படும். மீண்டும் வருகை தாருங்கள்!"
+
+# --- Donations Page ---
+msgid "Why Donate?"
+msgstr "ஏன் நன்கொடை அளிக்க வேண்டும்?"
+
+msgid "Your generous contribution goes directly towards:"
+msgstr "உங்கள் கொடை நேரடியாக பயன்படும்:"
+
+msgid "Daily pooja essentials — flowers, lamps, incense"
+msgstr "தினசரி பூஜை தேவைகள் — மலர்கள், விளக்குகள், ஊதுபத்தி"
+
+msgid "Temple maintenance and renovation"
+msgstr "கோவில் பராமரிப்பு மற்றும் புனரமைப்பு"
+
+msgid "Festival celebrations and cultural programmes"
+msgstr "திருவிழா கொண்டாட்டங்கள் மற்றும் கலாசார நிகழ்ச்சிகள்"
+
+msgid "Prasadam (sacred food) distribution to devotees"
+msgstr "பக்தர்களுக்கு பிரசாத விநியோகம்"
+
+msgid "Temple education and cultural activities"
+msgstr "கோவில் கல்வி மற்றும் கலாசார நடவடிக்கைகள்"
+
+msgid "Donation Options"
+msgstr "நன்கொடை விருப்பங்கள்"
+
+msgid "Lamp Sponsorship"
+msgstr "விளக்கு வழங்குதல்"
+
+msgid "Sponsor a daily lamp in the temple sanctum"
+msgstr "கோவில் கருவறையில் ஒரு நாள் விளக்கு ஏற்றுங்கள்"
+
+msgid "Flower Archana"
+msgstr "மலர் அர்ச்சனை"
+
+msgid "Sponsor one day of flower decoration"
+msgstr "ஒரு நாள் மலர் அலங்காரத்திற்கு ஆதரவளியுங்கள்"
+
+msgid "Abhishekam"
+msgstr "அபிஷேகம்"
+
+msgid "Sponsor a special Abhishekam ritual"
+msgstr "ஒரு சிறப்பு அபிஷேக வழிபாட்டிற்கு ஆதரவளியுங்கள்"
+
+msgid "Festival Sponsorship"
+msgstr "திருவிழா நிதியுதவி"
+
+msgid "Contribute to a grand festival celebration"
+msgstr "கோலாகல திருவிழா கொண்டாட்டத்திற்கு பங்களியுங்கள்"
+
+msgid "Donate"
+msgstr "நன்கொடை"
+
+msgid "Bank Transfer Details"
+msgstr "வங்கி பரிமாற்ற விவரங்கள்"
+
+msgid "Account Name"
+msgstr "கணக்கு பெயர்"
+
+msgid "Account Number"
+msgstr "கணக்கு எண்"
+
+msgid "IFSC Code"
+msgstr "IFSC குறியீடு"
+
+msgid "Bank Name"
+msgstr "வங்கி பெயர்"
+
+msgid "Branch"
+msgstr "கிளை"
+
+msgid "Please WhatsApp or email us your transaction details for acknowledgement and receipt."
+msgstr "ரசீது பெற உங்கள் பரிவர்த்தனை விவரங்களை WhatsApp அல்லது மின்னஞ்சல் மூலம் அனுப்பவும்."
+
+# --- 404 Page ---
+msgid "The page you are looking for could not be found."
+msgstr "நீங்கள் தேடும் பக்கம் கிடைக்கவில்லை."
+
+msgid "Return Home"
+msgstr "முகப்பிற்கு திரும்பு"
+
+# --- Archive ---
+msgid "No content found in this archive."
+msgstr "இந்த காப்பகத்தில் உள்ளடக்கம் இல்லை."
+
+msgid "Previous"
+msgstr "முந்தைய"
+
+msgid "Next"
+msgstr "அடுத்த"

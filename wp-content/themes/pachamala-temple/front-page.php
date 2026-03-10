@@ -20,18 +20,18 @@ get_header(); ?>
         <div class="welcome-grid">
             <div class="welcome-item">
                 <div class="welcome-icon">ॐ</div>
-                <h3>Sacred Shrine</h3>
+                <h3><?php esc_html_e( 'Sacred Shrine', 'pachamala-temple' ); ?></h3>
                 <p lang="ta">அருள்மிகு ஆதிரீஸ்வரர்<br>அனுசியாம்பாள் திருக்கோவில்</p>
             </div>
             <div class="welcome-item">
                 <div class="welcome-icon">&#127774;</div>
-                <h3>Daily Poojas</h3>
-                <p>Daily rituals performed with devotion from early morning to night. Experience divine blessings.</p>
+                <h3><?php esc_html_e( 'Daily Poojas', 'pachamala-temple' ); ?></h3>
+                <p><?php esc_html_e( 'Daily rituals performed with devotion from early morning to night. Experience divine blessings.', 'pachamala-temple' ); ?></p>
             </div>
             <div class="welcome-item">
                 <div class="welcome-icon">&#127880;</div>
-                <h3>Festivals &amp; Events</h3>
-                <p>Grand celebrations of Tamil Hindu festivals throughout the year. Join us in devotion.</p>
+                <h3><?php esc_html_e( 'Festivals &amp; Events', 'pachamala-temple' ); ?></h3>
+                <p><?php esc_html_e( 'Grand celebrations of Tamil Hindu festivals throughout the year. Join us in devotion.', 'pachamala-temple' ); ?></p>
             </div>
         </div>
     </div>
@@ -42,7 +42,7 @@ get_header(); ?>
      ========================================================= -->
 <section class="today-section section-padding" id="pooja-timings">
     <div class="container">
-        <h2 class="section-title">Daily Worship &amp; Events</h2>
+        <h2 class="section-title"><?php esc_html_e( 'Daily Worship &amp; Events', 'pachamala-temple' ); ?></h2>
         <p class="section-subtitle" lang="ta">தினசரி வழிபாடு மற்றும் நிகழ்வுகள்</p>
         <div class="today-grid">
             <div class="today-poojas">
@@ -60,7 +60,7 @@ get_header(); ?>
      ========================================================= -->
 <section class="deities-section section-padding" id="deities">
     <div class="container">
-        <h2 class="section-title">Our Deities</h2>
+        <h2 class="section-title"><?php esc_html_e( 'Our Deities', 'pachamala-temple' ); ?></h2>
         <p class="section-subtitle" lang="ta">இறைவன் — இறைவி</p>
         <?php get_template_part( 'template-parts/deity-card' ); ?>
     </div>
@@ -80,12 +80,12 @@ $gallery_query = new WP_Query( [
 if ( $gallery_query->have_posts() ) : ?>
 <section class="gallery-preview-section section-padding" id="gallery">
     <div class="container">
-        <h2 class="section-title">Temple Gallery</h2>
+        <h2 class="section-title"><?php esc_html_e( 'Temple Gallery', 'pachamala-temple' ); ?></h2>
         <p class="section-subtitle" lang="ta">கோவில் படங்கள்</p>
         <?php get_template_part( 'template-parts/gallery-grid', null, [ 'query' => $gallery_query ] ); ?>
         <div class="text-center" style="margin-top:2rem">
             <a href="<?php echo esc_url( home_url( '/gallery' ) ); ?>" class="btn btn-primary">
-                View All Photos
+                <?php esc_html_e( 'View All Photos', 'pachamala-temple' ); ?>
             </a>
         </div>
     </div>
@@ -100,13 +100,13 @@ endif;
      ========================================================= -->
 <section class="donation-cta-section section-padding">
     <div class="container">
-        <h2>Support the Temple</h2>
-        <p>Your contribution helps us maintain the sanctity of this sacred shrine, conduct daily poojas, and celebrate grand festivals.</p>
+        <h2><?php esc_html_e( 'Support the Temple', 'pachamala-temple' ); ?></h2>
+        <p><?php esc_html_e( 'Your contribution helps us maintain the sanctity of this sacred shrine, conduct daily poojas, and celebrate grand festivals.', 'pachamala-temple' ); ?></p>
         <p lang="ta" style="color:rgba(255,255,255,.65);font-size:.9rem;margin-bottom:1.5rem">
             உங்கள் கொடை கோவிலை காக்கும்
         </p>
         <a href="<?php echo esc_url( home_url( '/donations' ) ); ?>" class="btn btn-gold">
-            Donate Now
+            <?php esc_html_e( 'Donate Now', 'pachamala-temple' ); ?>
         </a>
     </div>
 </section>

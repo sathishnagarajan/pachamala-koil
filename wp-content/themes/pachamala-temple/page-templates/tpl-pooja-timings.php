@@ -56,14 +56,14 @@ get_header(); ?>
                     <div class="pooja-timings-widget" style="margin-bottom:var(--space-lg)">
                         <div class="widget-header">
                             <span class="header-icon" aria-hidden="true">&#9719;</span>
-                            <h3><?php echo esc_html( $day ); ?> Pooja Schedule</h3>
+                            <h3><?php echo esc_html( $day ); ?> <?php esc_html_e( 'Pooja Schedule', 'pachamala-temple' ); ?></h3>
                         </div>
                         <table class="pooja-table">
                             <thead>
                                 <tr>
-                                    <th>Pooja Name</th>
-                                    <th>Time</th>
-                                    <th>Type</th>
+                                    <th><?php esc_html_e( 'Pooja Name', 'pachamala-temple' ); ?></th>
+                                    <th><?php esc_html_e( 'Time', 'pachamala-temple' ); ?></th>
+                                    <th><?php esc_html_e( 'Type', 'pachamala-temple' ); ?></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -97,11 +97,11 @@ get_header(); ?>
                     <div class="pooja-timings-widget">
                         <div class="widget-header">
                             <span class="header-icon" aria-hidden="true">&#9719;</span>
-                            <h3>Daily Pooja Schedule</h3>
+                            <h3><?php esc_html_e( 'Daily Pooja Schedule', 'pachamala-temple' ); ?></h3>
                         </div>
                         <table class="pooja-table">
                             <thead>
-                                <tr><th>Pooja Name</th><th>Time</th><th>Type</th></tr>
+                                <tr><th><?php esc_html_e( 'Pooja Name', 'pachamala-temple' ); ?></th><th><?php esc_html_e( 'Time', 'pachamala-temple' ); ?></th><th><?php esc_html_e( 'Type', 'pachamala-temple' ); ?></th></tr>
                             </thead>
                             <tbody>
                                 <?php
@@ -127,15 +127,15 @@ get_header(); ?>
                     </div>
 
                     <div class="temple-card" style="margin-top:var(--space-lg);background:var(--color-bg-dark)">
-                        <h3 style="color:var(--color-primary);margin-bottom:var(--space-sm)">Special Friday Pooja</h3>
-                        <p>Every Friday, special Abhishekam and Archana is performed with elaborate rituals. Devotees are encouraged to participate in the evening pooja starting at 7:00 PM.</p>
+                        <h3 style="color:var(--color-primary);margin-bottom:var(--space-sm)"><?php esc_html_e( 'Special Friday Pooja', 'pachamala-temple' ); ?></h3>
+                        <p><?php esc_html_e( 'Every Friday, special Abhishekam and Archana is performed with elaborate rituals. Devotees are encouraged to participate in the evening pooja starting at 7:00 PM.', 'pachamala-temple' ); ?></p>
                     </div>
                 <?php endif; ?>
 
                 <!-- Note box -->
                 <div class="temple-card" style="margin-top:var(--space-lg);border-top-color:var(--color-accent)">
                     <p style="margin:0;font-size:.9rem;color:var(--color-text-muted)">
-                        <strong>Note:</strong> Temple timings may vary on festival days. Please contact us for special occasion schedules.
+                        <strong><?php esc_html_e( 'Note:', 'pachamala-temple' ); ?></strong> <?php esc_html_e( 'Temple timings may vary on festival days. Please contact us for special occasion schedules.', 'pachamala-temple' ); ?>
                     </p>
                 </div>
 

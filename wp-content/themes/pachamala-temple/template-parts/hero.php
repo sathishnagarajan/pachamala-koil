@@ -34,10 +34,10 @@
         <!-- CTA Buttons -->
         <div class="hero-ctas">
             <a href="#pooja-timings" class="btn btn-gold">
-                Today's Pooja Timings
+                <?php esc_html_e( "Today's Pooja Timings", 'pachamala-temple' ); ?>
             </a>
             <a href="<?php echo esc_url( home_url( '/about' ) ); ?>" class="btn btn-outline-white">
-                About the Temple
+                <?php esc_html_e( 'About the Temple', 'pachamala-temple' ); ?>
             </a>
         </div>
 

@@ -19,14 +19,14 @@ get_header(); ?>
                     பக்கம் கிடைக்கவில்லை
                 </h1>
                 <h2 style="color:var(--color-text-muted);font-size:1.2rem;font-weight:400;margin-bottom:var(--space-lg)">
-                    The page you are looking for could not be found.
+                    <?php esc_html_e( 'The page you are looking for could not be found.', 'pachamala-temple' ); ?>
                 </h2>
                 <div style="display:flex;gap:var(--space-md);justify-content:center;flex-wrap:wrap">
                     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="btn btn-primary">
-                        &larr; Return Home
+                        &larr; <?php esc_html_e( 'Return Home', 'pachamala-temple' ); ?>
                     </a>
                     <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn btn-outline-gold">
-                        Contact Us
+                        <?php esc_html_e( 'Contact Us', 'pachamala-temple' ); ?>
                     </a>
                 </div>
             </div>

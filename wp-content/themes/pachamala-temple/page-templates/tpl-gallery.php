@@ -29,7 +29,7 @@ get_header(); ?>
 
         <?php if ( ! is_wp_error( $gallery_cats ) && ! empty( $gallery_cats ) ) : ?>
         <div class="gallery-filters" id="gallery-filters">
-            <button class="filter-btn active" data-filter="all">All Photos</button>
+            <button class="filter-btn active" data-filter="all"><?php esc_html_e( 'All Photos', 'pachamala-temple' ); ?></button>
             <?php foreach ( $gallery_cats as $cat ) : ?>
                 <button class="filter-btn" data-filter="<?php echo esc_attr( $cat->slug ); ?>">
                     <?php echo esc_html( $cat->name ); ?>
@@ -84,7 +84,7 @@ get_header(); ?>
         <?php else : ?>
         <div class="temple-card" style="text-align:center;padding:3rem">
             <p style="font-size:3rem;margin-bottom:1rem">📷</p>
-            <p>Gallery photos will be added soon. Check back later!</p>
+            <p><?php esc_html_e( 'Gallery photos will be added soon. Check back later!', 'pachamala-temple' ); ?></p>
         </div>
         <?php endif; ?>
 

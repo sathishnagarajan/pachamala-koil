@@ -32,16 +32,16 @@ get_header(); ?>
 
                 <!-- Why Donate section -->
                 <div class="temple-card" style="margin-bottom:var(--space-lg)">
-                    <h2 style="color:var(--color-primary);margin-bottom:var(--space-md)">Why Donate?</h2>
-                    <p>Your generous contribution goes directly towards:</p>
+                    <h2 style="color:var(--color-primary);margin-bottom:var(--space-md)"><?php esc_html_e( 'Why Donate?', 'pachamala-temple' ); ?></h2>
+                    <p><?php esc_html_e( 'Your generous contribution goes directly towards:', 'pachamala-temple' ); ?></p>
                     <ul style="list-style:none;padding:0;margin:var(--space-md) 0 0">
                         <?php
                         $reasons = [
-                            '🪔' => 'Daily pooja essentials — flowers, lamps, incense',
-                            '🏛' => 'Temple maintenance and renovation',
-                            '🥁' => 'Festival celebrations and cultural programmes',
-                            '🍱' => 'Prasadam (sacred food) distribution to devotees',
-                            '📚' => 'Temple education and cultural activities',
+                            '🪔' => __( 'Daily pooja essentials — flowers, lamps, incense', 'pachamala-temple' ),
+                            '🏛' => __( 'Temple maintenance and renovation', 'pachamala-temple' ),
+                            '🥁' => __( 'Festival celebrations and cultural programmes', 'pachamala-temple' ),
+                            '🍱' => __( 'Prasadam (sacred food) distribution to devotees', 'pachamala-temple' ),
+                            '📚' => __( 'Temple education and cultural activities', 'pachamala-temple' ),
                         ];
                         foreach ( $reasons as $icon => $reason ) : ?>
                         <li style="display:flex;gap:.75rem;padding:.6rem 0;border-bottom:1px solid var(--color-bg-dark)">
@@ -53,14 +53,14 @@ get_header(); ?>
                 </div>
 
                 <!-- Donation options -->
-                <h2 style="color:var(--color-primary);margin-bottom:var(--space-md)">Donation Options</h2>
+                <h2 style="color:var(--color-primary);margin-bottom:var(--space-md)"><?php esc_html_e( 'Donation Options', 'pachamala-temple' ); ?></h2>
                 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:var(--space-md);margin-bottom:var(--space-xl)">
                     <?php
                     $options = [
-                        [ '₹101',   'Lamp Sponsorship',     'Sponsor a daily lamp in the temple sanctum' ],
-                        [ '₹501',   'Flower Archana',       'Sponsor one day of flower decoration' ],
-                        [ '₹1,001', 'Abhishekam',           'Sponsor a special Abhishekam ritual' ],
-                        [ '₹5,001', 'Festival Sponsorship', 'Contribute to a grand festival celebration' ],
+                        [ '₹101',   __( 'Lamp Sponsorship', 'pachamala-temple' ),     __( 'Sponsor a daily lamp in the temple sanctum', 'pachamala-temple' ) ],
+                        [ '₹501',   __( 'Flower Archana', 'pachamala-temple' ),       __( 'Sponsor one day of flower decoration', 'pachamala-temple' ) ],
+                        [ '₹1,001', __( 'Abhishekam', 'pachamala-temple' ),           __( 'Sponsor a special Abhishekam ritual', 'pachamala-temple' ) ],
+                        [ '₹5,001', __( 'Festival Sponsorship', 'pachamala-temple' ), __( 'Contribute to a grand festival celebration', 'pachamala-temple' ) ],
                     ];
                     foreach ( $options as $opt ) : ?>
                     <div class="temple-card" style="text-align:center">
@@ -69,22 +69,22 @@ get_header(); ?>
                         </div>
                         <h4 style="color:var(--color-primary);margin-bottom:.5rem"><?php echo esc_html( $opt[1] ); ?></h4>
                         <p style="font-size:.85rem;color:var(--color-text-muted);margin-bottom:var(--space-md)"><?php echo esc_html( $opt[2] ); ?></p>
-                        <a href="#donate-form" class="btn btn-gold" style="width:100%;text-align:center">Donate</a>
+                        <a href="#donate-form" class="btn btn-gold" style="width:100%;text-align:center"><?php esc_html_e( 'Donate', 'pachamala-temple' ); ?></a>
                     </div>
                     <?php endforeach; ?>
                 </div>
 
                 <!-- Bank Transfer details -->
                 <div class="temple-card" id="donate-form" style="border-top-color:var(--color-secondary)">
-                    <h3 style="color:var(--color-primary);margin-bottom:var(--space-md)">Bank Transfer Details</h3>
+                    <h3 style="color:var(--color-primary);margin-bottom:var(--space-md)"><?php esc_html_e( 'Bank Transfer Details', 'pachamala-temple' ); ?></h3>
                     <table style="width:100%;border-collapse:collapse">
                         <?php
                         $bank = [
-                            'Account Name'   => 'Pachaimalai Athireeswarar Temple Trust',
-                            'Account Number' => 'XXXX XXXX XXXX',
-                            'IFSC Code'      => 'XXXXX0000000',
-                            'Bank Name'      => 'State Bank of India',
-                            'Branch'         => 'Chennai',
+                            __( 'Account Name', 'pachamala-temple' )   => 'Pachaimalai Athireeswarar Temple Trust',
+                            __( 'Account Number', 'pachamala-temple' ) => 'XXXX XXXX XXXX',
+                            __( 'IFSC Code', 'pachamala-temple' )      => 'XXXXX0000000',
+                            __( 'Bank Name', 'pachamala-temple' )      => 'State Bank of India',
+                            __( 'Branch', 'pachamala-temple' )         => 'Chennai',
                         ];
                         foreach ( $bank as $label => $value ) : ?>
                         <tr style="border-bottom:1px solid var(--color-bg-dark)">
@@ -94,7 +94,7 @@ get_header(); ?>
                         <?php endforeach; ?>
                     </table>
                     <p style="margin-top:var(--space-md);font-size:.85rem;color:var(--color-text-muted)">
-                        Please WhatsApp or email us your transaction details for acknowledgement and receipt.
+                        <?php esc_html_e( 'Please WhatsApp or email us your transaction details for acknowledgement and receipt.', 'pachamala-temple' ); ?>
                     </p>
                 </div>
 
