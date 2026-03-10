@@ -1,0 +1,225 @@
+/*
+ * temple-patterns.css
+ * Decorative CSS patterns for Pachamala Temple theme
+ * — kolam borders, lotus dividers, gold ornament lines
+ */
+
+/* ============================================================
+   GOLD SHIMMER BORDER
+   Used as header/footer separator
+   ============================================================ */
+.header-gold-border {
+    height: 4px;
+    background: linear-gradient(
+        90deg,
+        transparent 0%,
+        var(--color-secondary) 20%,
+        var(--color-accent) 50%,
+        var(--color-secondary) 80%,
+        transparent 100%
+    );
+}
+
+/* ============================================================
+   KOLAM DOT BORDER
+   Traditional Tamil kolam (rangoli) dot pattern
+   ============================================================ */
+.kolam-border {
+    height: 14px;
+    background-image:
+        radial-gradient(circle, var(--color-secondary) 2px, transparent 2px),
+        radial-gradient(circle, var(--color-secondary) 2px, transparent 2px);
+    background-size: 16px 14px, 16px 14px;
+    background-position: 0 50%, 8px 100%;
+    opacity: 0.6;
+}
+
+/* ============================================================
+   LOTUS DIVIDER
+   Gold lotus flower divider between sections
+   ============================================================ */
+.lotus-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    color: var(--color-secondary);
+    font-size: 1.4rem;
+    opacity: 0.8;
+}
+
+.lotus-divider::before,
+.lotus-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--color-secondary));
+    max-width: 200px;
+}
+
+.lotus-divider::after {
+    background: linear-gradient(to left, transparent, var(--color-secondary));
+}
+
+/* ============================================================
+   GOPURAM SILHOUETTE
+   Simple CSS-only temple tower silhouette
+   ============================================================ */
+.gopuram-divider {
+    height: 32px;
+    background: var(--color-primary);
+    clip-path: polygon(
+        0% 100%,
+        5% 100%,
+        5% 70%,
+        10% 70%,
+        10% 50%,
+        13% 50%,
+        13% 35%,
+        15% 35%,
+        15% 25%,
+        17% 25%,
+        17% 15%,
+        19% 15%,
+        19% 8%,
+        21% 8%,
+        21% 4%,
+        23% 4%,
+        25% 0%,
+        27% 4%,
+        29% 4%,
+        29% 8%,
+        31% 8%,
+        31% 15%,
+        33% 15%,
+        33% 25%,
+        35% 25%,
+        35% 35%,
+        37% 35%,
+        37% 50%,
+        40% 50%,
+        40% 70%,
+        45% 70%,
+        45% 100%,
+        55% 100%,
+        55% 70%,
+        60% 70%,
+        60% 50%,
+        63% 50%,
+        63% 35%,
+        65% 35%,
+        65% 25%,
+        67% 25%,
+        67% 15%,
+        69% 15%,
+        69% 8%,
+        71% 8%,
+        71% 4%,
+        73% 4%,
+        75% 0%,
+        77% 4%,
+        79% 4%,
+        79% 8%,
+        81% 8%,
+        81% 15%,
+        83% 15%,
+        83% 25%,
+        85% 25%,
+        85% 35%,
+        87% 35%,
+        87% 50%,
+        90% 50%,
+        90% 70%,
+        95% 70%,
+        95% 100%,
+        100% 100%
+    );
+    margin: 2rem 0;
+    opacity: 0.15;
+}
+
+/* ============================================================
+   DECORATIVE CARD ORNAMENT
+   Corner ornaments for feature cards
+   ============================================================ */
+.ornament-card {
+    position: relative;
+}
+
+.ornament-card::before,
+.ornament-card::after {
+    content: '✦';
+    position: absolute;
+    color: var(--color-secondary);
+    font-size: 0.75rem;
+    opacity: 0.6;
+}
+
+.ornament-card::before {
+    top: 0.5rem;
+    right: 0.75rem;
+}
+
+.ornament-card::after {
+    bottom: 0.5rem;
+    left: 0.75rem;
+}
+
+/* ============================================================
+   OM WATERMARK
+   Subtle Om symbol background for sections
+   ============================================================ */
+.om-bg-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.om-bg-section::before {
+    content: 'ॐ';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20rem;
+    color: var(--color-primary);
+    opacity: 0.03;
+    pointer-events: none;
+    z-index: 0;
+    line-height: 1;
+}
+
+.om-bg-section > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* ============================================================
+   GOLD CHAIN BORDER
+   Repeating decorative chain at section boundaries
+   ============================================================ */
+.gold-chain-border {
+    height: 8px;
+    background-image: repeating-linear-gradient(
+        90deg,
+        var(--color-secondary) 0px,
+        var(--color-secondary) 4px,
+        transparent 4px,
+        transparent 8px,
+        var(--color-accent) 8px,
+        var(--color-accent) 10px,
+        transparent 10px,
+        transparent 14px,
+        var(--color-secondary) 14px,
+        var(--color-secondary) 18px,
+        transparent 18px,
+        transparent 22px
+    );
+    background-size: 22px 8px;
+    opacity: 0.6;
+}
+
+/* ============================================================
+   ADMIN META BOX STYLES
+   (loaded via admin.css for pkt_enqueue_admin_assets)
+   ============================================================ */

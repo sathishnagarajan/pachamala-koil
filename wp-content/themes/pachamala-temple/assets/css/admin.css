@@ -1,0 +1,32 @@
+/*
+ * admin.css — Pachamala Temple admin meta box styles
+ */
+
+.pkt-meta-table th {
+    width: 160px;
+    padding: 8px 0 8px 4px;
+    vertical-align: middle;
+    font-size: 13px;
+    color: #444;
+}
+
+.pkt-meta-table td {
+    padding: 8px 4px;
+    vertical-align: middle;
+}
+
+.pkt-meta-table input[type="text"],
+.pkt-meta-table input[type="time"],
+.pkt-meta-table input[type="date"],
+.pkt-meta-table select,
+.pkt-meta-table textarea {
+    padding: 6px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.pkt-meta-table textarea {
+    resize: vertical;
+    line-height: 1.6;
+}

@@ -1,0 +1,52 @@
+# WordPress core (large, should be reinstalled not committed)
+wp-admin/
+wp-includes/
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+index.php
+license.txt
+readme.html
+wp-activate.php
+
+# Local config (keep out of git)
+wp-config.php
+
+# Uploads (user media, don't commit)
+wp-content/uploads/
+
+# Cache & generated files
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+
+# Logs
+wp-content/debug.log
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node / build tools (if added later)
+node_modules/
+dist/
+.env
+
+# Plugins (not committed — install via admin or composer)
+# wp-content/plugins/
+
+# ✅ WHAT IS COMMITTED:
+# wp-config.php is excluded (credentials)
+# wp-content/themes/pachamala-temple/ — the custom theme IS committed
